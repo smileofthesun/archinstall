@@ -13,7 +13,7 @@ sxhkd		#	X daemon
 arandr		#	customize monitors
 man-db		#	man pages
 
-#audio
+# audio
 #wireplumber	#	audio system
 #pipewire-pulse	#	use pipewire with pulseaudio programs
 
