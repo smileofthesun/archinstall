@@ -3,9 +3,15 @@
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm reflector rsync
 
-echo "Enter your desired country for the mirrorlist:"
+echo "Enter your desired country for the mirrorlist (leave empty to skip):"
 read country
-sudo reflector --country "$country" --sort rate --save /etc/pacman.d/mirrorlist
+
+if [ -n "$country" ]; then
+    sudo reflector --country "$country" --sort rate --save /etc/pacman.d/mirrorlist
+else
+    echo "Skipping mirrorlist configuration..."
+fi
+
 
 awk '!/^#/ {print $1}' packagelist | sudo pacman -S --noconfirm --needed -
 
