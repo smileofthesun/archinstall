@@ -5,7 +5,8 @@ xorg-xinit	#	start X with startx
 xwallpaper	#	set wallpapers in X
 xautolock	#	lock thescreen in X
 xcompmgr	#	transparency and screentear fix
-imlib2  # library for images
+imlib2		#	library for images
+libexif		#	library for exif
 xclip		#	copy with terminal
 dunst		#	notification system
 sxhkd		#	X daemon
@@ -32,5 +33,9 @@ imagemagick	#	image swiss army knife
 
 # fonts+emojis
 noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
 ttf-font-awesome
-ttf-dejavu
+ttf-jetbrains-mono
+ttf-joypixels
+
