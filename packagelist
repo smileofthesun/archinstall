@@ -14,10 +14,14 @@ arandr		#	customize monitors
 man-db		#	man pages
 
 # audio
-#wireplumber	#	audio system
-#pipewire-pulse	#	use pipewire with pulseaudio programs
+wireplumber	#	audio system
+pipewire	#	pipewire
+pipewire-pulse	#	use pipewire with pulseaudio programs
 
-
+# shell
+zsh		#	z shell
+zsh-syntax-highlighting
+zsh-autosuggestions
 
 # tools
 ffmpeg		#	video+audio swiss army knife
@@ -30,6 +34,10 @@ zathura-pdf-mupdf
 unzip		#	zip files
 imagemagick	#	image swiss army knife
 
+# programs
+gajim
+
+
 
 # fonts+emojis
 noto-fonts
@@ -38,4 +46,3 @@ noto-fonts-cjk
 ttf-font-awesome
 ttf-jetbrains-mono
 ttf-joypixels
-
