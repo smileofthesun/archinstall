@@ -12,8 +12,8 @@ sudo pacman -S --noconfirm --needed - < packagelist
 cd $HOME
 
 git clone https://git.suckless.org/dwm
-git clone https://github.com/LukeSmithxyz/st.git
-git clone https://github.com/LukeSmithxyz/dmenu.git
+git clone https://github.com/smileofthesun/st.git
+git clone https://github.com/smileofthesun/dmenu.git
 
 
 echo "exec dwm &" >> .xinitrc
