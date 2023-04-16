@@ -20,9 +20,9 @@ cd $HOME
 git clone https://github.com/smileofthesun/dwm.git ~/.local/src/dwm
 git clone https://github.com/smileofthesun/st.git ~/.local/src/st
 git clone https://github.com/smileofthesun/dmenu.git ~/.local/src/dmenu
-git clone https://git.suckless.org/slock ~/.local/src/slock
-git clone https://git.suckless.org/slstatus ~/.local/src/slstatus
-git clone https://github.com/nsxiv/nsxiv.git ~/.local/src/nsxiv
+git clone https://github.com/smileofthesun//slock.git ~/.local/src/slock
+git clone https://github.com/smileofthesun/slstatus.git  ~/.local/src/slstatus
+git clone https://github.com/smileofthesun/nsxiv.git ~/.local/src/nsxiv
 
 sudo make -C ~/.local/src/dwm install
 sudo make -C ~/.local/src/st install
