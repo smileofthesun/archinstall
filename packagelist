@@ -4,6 +4,7 @@ xorg-server	#	X server
 xorg-xinit	#	start X with startx
 xwallpaper	#	set wallpapers in X
 xautolock	#	lock thescreen in X
+xorg-xinput # manage X inputs
 xcompmgr	#	transparency and screentear fix
 imlib2		#	library for images
 libexif		#	library for exif
