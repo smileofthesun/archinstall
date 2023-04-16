@@ -14,6 +14,7 @@ libnotify
 sxhkd		#	X daemon
 arandr		#	customize monitors
 man-db		#	man pages
+gnome-keyring
 
 # audio
 wireplumber	#	audio system
