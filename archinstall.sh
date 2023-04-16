@@ -47,6 +47,6 @@ EndSection
 EOM'
 
 git clone https://aur.archlinux.org/pikaur.git ~/pikaur_temp
-(cd ~/pikaur_temp && makepkg)
+(cd ~/pikaur_temp && makepkg -fsr)
 sudo pacman -U --noconfirm ~/pikaur_temp/*.pkg.tar.*
 rm -rf ~/pikaur_temp
