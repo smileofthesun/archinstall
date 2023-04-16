@@ -37,4 +37,3 @@ rm -rf ~/dotfiles
 
 chsh -s $(which zsh)
 
-echo "exec dwm &" >> .xinitrc
