@@ -16,11 +16,13 @@ git clone https://github.com/smileofthesun/st.git ~/.local/src/st
 git clone https://github.com/smileofthesun/dmenu.git ~/.local/src/dmenu
 git clone https://git.suckless.org/slock ~/.local/src/slock
 git clone https://git.suckless.org/slstatus ~/.local/src/slstatus
+git clone https://github.com/nsxiv/nsxiv.git ~/.local/src/nsxiv
 
 sudo make -C ~/.local/src/dwm install
 sudo make -C ~/.local/src/st install
 sudo make -C ~/.local/src/dmenu install
 sudo make -C ~/.local/src/slock install
 sudo make -C ~/.local/src/slstatus install
+sudo make -C ~/.local/src/nsxiv install
 
 echo "exec dwm &" >> .xinitrc
