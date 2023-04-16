@@ -47,7 +47,7 @@ EndSection
 EOM'
 
 cd
-git clone https://aur.archlinux.org/pikaur.git
-cd pikaur
+git clone https://aur.archlinux.org/yay.git
+cd yay
 makepkg -fsri
 cd
