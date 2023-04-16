@@ -34,6 +34,8 @@ zathura		#	pdf viewer
 zathura-pdf-mupdf
 unzip		#	zip files
 imagemagick	#	image swiss army knife
+newsboat	#	rss
+transmission	#	torrent
 
 # programs
 gajim		#	xmpp frontend
