@@ -35,4 +35,6 @@ https://github.com/smileofthesun/dotfiles.git
 rsync -av --exclude='.git' ~/dotfiles/ ~/
 rm -rf ~/dotfiles
 
+chsh -s $(which zsh)
+
 echo "exec dwm &" >> .xinitrc
