@@ -39,3 +39,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.config/shell/z
 
 chsh -s $(which zsh)
 
+sudo bash -c 'cat > /etc/X11/xorg.conf.d/00-keyboard.conf <<- EOM
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "sv"
+        Option "XkbModel" "pc105
+EndSection
+EOM'
+
