@@ -1,0 +1,35 @@
+# system
+base-devel	#	dev pack with tools such as make
+xorg-server	#	X server
+xorg-xinit	#	start X with startx
+xwallpaper	#	set wallpapers in X
+xautolock	#	lock thescreen in X
+xcompmgr	#	transparency and screentear fix
+xclip		#	copy with terminal
+dunst		#	notification system
+sxhkd		#	X daemon
+arandr		#	customize monitors
+man-db		#	man pages
+
+#audio
+#wireplumber	#	audio system
+#pipewire-pulse	#	use pipewire with pulseaudio programs
+
+
+
+# tools
+ffmpeg		#	video+audio swiss army knife
+ffmpegthumbnailer
+neovim		#	text editor
+yt-dlp		#	downloading swiss army knife
+mpv		#	video player
+zathura		#	pdf viewer
+zathura-pdf-mupdf
+unzip		#	zip files
+ImageMagick	#	image swiss army knife
+
+
+# fonts+emojis
+noto-fonts
+ttf-font-awesome
+ttf-dejavu
