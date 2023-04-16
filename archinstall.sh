@@ -31,4 +31,5 @@ sudo make -C ~/.local/src/slock install
 sudo make -C ~/.local/src/slstatus install
 sudo make -C ~/.local/src/nsxiv install
 
+
 echo "exec dwm &" >> .xinitrc
