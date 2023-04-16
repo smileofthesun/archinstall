@@ -17,7 +17,7 @@ awk '!/^#/ {print $1}' packagelist | sudo pacman -S --noconfirm --needed -
 
 cd $HOME
 
-git clone https://git.suckless.org/dwm ~/.local/src/dwm
+git clone https://github.com/smileofthesun/dwm.git ~/.local/src/dwm
 git clone https://github.com/smileofthesun/st.git ~/.local/src/st
 git clone https://github.com/smileofthesun/dmenu.git ~/.local/src/dmenu
 git clone https://git.suckless.org/slock ~/.local/src/slock
