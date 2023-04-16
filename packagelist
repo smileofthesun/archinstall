@@ -5,6 +5,7 @@ xorg-xinit	#	start X with startx
 xwallpaper	#	set wallpapers in X
 xautolock	#	lock thescreen in X
 xcompmgr	#	transparency and screentear fix
+imlib2  # library for images
 xclip		#	copy with terminal
 dunst		#	notification system
 sxhkd		#	X daemon
