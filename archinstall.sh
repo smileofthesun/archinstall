@@ -47,5 +47,6 @@ EndSection
 EOM'
 
 git clone https://aur.archlinux.org/yay.git ~/yay_temp
-(cd ~/yay_temp && makepkg -si)
+(cd ~/yay_temp && makepkg)
+sudo pacman -U --noconfirm ~/yay_temp/*.pkg.tar.*
 rm -rf ~/yay_temp
