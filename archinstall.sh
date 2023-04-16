@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syu --noconfirm
-sudo pacman -S reflector rsync
+sudo pacman -S --noconfirm reflector rsync
 
 echo "Enter your desired country for the mirrorlist:"
 read country
