@@ -16,6 +16,7 @@ arandr		#	customize monitors
 man-db		#	man pages
 gnome-keyring
 cronie-dinit
+rsync
 
 # audio
 wireplumber	#	audio system
