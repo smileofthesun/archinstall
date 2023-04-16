@@ -46,7 +46,7 @@ Section "InputClass"
 EndSection
 EOM'
 
-git clone https://aur.archlinux.org/yay.git ~/yay_temp
-(cd ~/yay_temp && makepkg)
-sudo pacman -U --noconfirm ~/yay_temp/*.pkg.tar.*
-rm -rf ~/yay_temp
+git clone https://aur.archlinux.org/pikaur.git ~/pikaur_temp
+(cd ~/pikaur_temp && makepkg)
+sudo pacman -U --noconfirm ~/pikaur_temp/*.pkg.tar.*
+rm -rf ~/pikaur_temp
