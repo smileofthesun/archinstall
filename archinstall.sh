@@ -45,3 +45,7 @@ Section "InputClass"
         Option "XkbModel" "pc105
 EndSection
 EOM'
+
+git clone https://aur.archlinux.org/yay.git ~/yay_temp
+(cd ~/yay_temp && makepkg -si)
+rm -rf ~/yay_temp
