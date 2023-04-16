@@ -58,3 +58,5 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -fsri
 cd
+
+yay -S --noconfirm gajim-plugin-omemo
