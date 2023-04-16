@@ -21,8 +21,6 @@ pipewire-pulse	#	use pipewire with pulseaudio programs
 
 # shell
 zsh		#	z shell
-zsh-syntax-highlighting
-zsh-autosuggestions
 
 # tools
 ffmpeg		#	video+audio swiss army knife
