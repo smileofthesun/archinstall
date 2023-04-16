@@ -15,6 +15,7 @@ sxhkd		#	X daemon
 arandr		#	customize monitors
 man-db		#	man pages
 gnome-keyring
+cronie-dinit
 
 # audio
 wireplumber	#	audio system
