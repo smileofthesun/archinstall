@@ -35,7 +35,7 @@ zathura-pdf-mupdf
 unzip		#	zip files
 imagemagick	#	image swiss army knife
 newsboat	#	rss
-transmission	#	torrent
+transmission-cli	#	torrent
 
 # programs
 gajim		#	xmpp frontend
