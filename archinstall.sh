@@ -46,6 +46,13 @@ Section "InputClass"
 EndSection
 EOM'
 
+sudo bash -c 'cat >> /etc/pam.d/login <<- EOM
+
+# Gnome Keyring
+session    optional     pam_gnome_keyring.so auto_start
+auth       optional     pam_gnome_keyring.so
+EOM'
+
 cd
 git clone https://aur.archlinux.org/yay.git
 cd yay
