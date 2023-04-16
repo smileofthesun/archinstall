@@ -46,7 +46,8 @@ Section "InputClass"
 EndSection
 EOM'
 
-git clone https://aur.archlinux.org/pikaur.git ~/pikaur_temp
-(cd ~/pikaur_temp && makepkg -fsr)
-sudo pacman -U --noconfirm ~/pikaur_temp/*.pkg.tar.*
-rm -rf ~/pikaur_temp
+cd
+git clone https://aur.archlinux.org/pikaur.git
+cd pikaur
+makepkg -fsri
+cd
