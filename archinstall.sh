@@ -35,7 +35,7 @@ rm -rf ~/dotfiles
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.config/shell/fast-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.config/shell/zsh-autosuggestions
 
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $USER
 
 sudo bash -c 'cat > /etc/X11/xorg.conf.d/00-keyboard.conf <<- EOM
 Section "InputClass"
