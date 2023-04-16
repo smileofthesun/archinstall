@@ -38,6 +38,10 @@ transmission-cli	#	torrent
 # programs
 gajim		#	xmpp frontend
 
+# theme
+papirus-icon-theme
+arc-gtk-theme
+
 # fonts+emojis
 noto-fonts
 noto-fonts-emoji
