@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm reflector rsync
+#sudo pacman -S --noconfirm reflector rsync
 
 echo "Enter your desired country for the mirrorlist (leave empty to skip):"
 read country
@@ -60,3 +60,5 @@ makepkg -fsri
 cd
 
 yay -S --noconfirm gajim-plugin-omemo
+
+sudo dinitctl 
