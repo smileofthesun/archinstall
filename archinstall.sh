@@ -7,7 +7,7 @@ echo "Enter your desired country for the mirrorlist:"
 read country
 sudo reflector --country "$country" --sort rate --save /etc/pacman.d/mirrorlist
 
-awk '{print $1}' pkglist.txt | sudo pacman -S --noconfirm --needed - < packagelist
+awk '!/^#/ {print $1}' packagelist | sudo pacman -S --noconfirm --needed -
 
 cd $HOME
 
