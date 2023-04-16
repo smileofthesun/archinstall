@@ -31,5 +31,8 @@ sudo make -C ~/.local/src/slock install
 sudo make -C ~/.local/src/slstatus install
 sudo make -C ~/.local/src/nsxiv install
 
+https://github.com/smileofthesun/dotfiles.git
+rsync -av --exclude='.git' ~/dotfiles/ ~/
+rm -rf ~/dotfiles
 
 echo "exec dwm &" >> .xinitrc
