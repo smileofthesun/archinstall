@@ -35,9 +35,7 @@ unzip		#	zip files
 imagemagick	#	image swiss army knife
 
 # programs
-gajim
-
-
+gajim		#	xmpp frontend
 
 # fonts+emojis
 noto-fonts
