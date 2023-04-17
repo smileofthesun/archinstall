@@ -19,7 +19,9 @@ rsync		#	rsync
 autorandr	#	tool for managing screens automatically
 
 # audio
+pipewire	#	pipewire
 pipewire-pulse	#	use pipewire with pulseaudio programs
+wireplumber	#
 pulsemixer	#	audiomanager in cli
 pamixer		#	for slstatus
 
