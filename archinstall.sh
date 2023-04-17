@@ -4,6 +4,15 @@ sudo pacman -Syu --noconfirm
 
 #sudo pacman -S --noconfirm reflector rsync
 
+if grep -q "Artix Linux" /etc/os-release; then
+    # Commands to run if the system is Arch Linux
+    echo "This is Artix Linux."
+    curl https://raw.githubusercontent.com/abdullah-rgb/artix-archlinux-support/main/artix-archlinux-support.sh | sudo bash
+else
+    # Commands to run if the system is not Arch Linux
+    echo "This is not Artix Linux."
+fi
+
 echo "Skip on Artix
 Enter your desired country for the mirrorlist (leave empty to skip):"
 read country
@@ -61,5 +70,3 @@ makepkg -fsri
 cd
 
 yay -S --noconfirm gajim-plugin-omemo
-
-sudo dinitctl 
