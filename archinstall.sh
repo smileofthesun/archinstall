@@ -69,7 +69,7 @@ EOM'
 
 git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
-PACMAN="pacman --noconfirm" makepkg -fsri
+makepkg -fsri
 
 awk '!/#/ { print }' aurlist | yay -S --noconfirm --needed -
 
