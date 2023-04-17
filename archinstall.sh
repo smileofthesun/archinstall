@@ -27,7 +27,7 @@ fi
 
 cd ~/archinstall
 
-awk '!/^#/ {print $1}' packagelist | sudo pacman -S --noconfirm --needed -
+awk '!/^#/ {print $1}' ~/archinstall/packagelist | sudo pacman -S --noconfirm --needed -
 
 git clone https://github.com/smileofthesun/dwm.git ~/.local/src/dwm
 git clone https://github.com/smileofthesun/st.git ~/.local/src/st
