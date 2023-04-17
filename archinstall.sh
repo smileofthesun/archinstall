@@ -67,10 +67,10 @@ session    optional     pam_gnome_keyring.so auto_start
 auth       optional     pam_gnome_keyring.so
 EOM'
 
-cd
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -fsri
+git clone https://aur.archlinux.org/yay.git ~/yay
+cd ~/yay
+PACMAN="pacman --noconfirm" makepkg -fsri
+
 rm -rf ~/yay ~/archinstall ~/artixrepo
 
 awk '!/#/ { print }' aurlist | yay -S --noconfirm --needed -
