@@ -1,0 +1,6 @@
+#!/bin/bash
+git clone https://github.com/smileofthesun/dotfiles.git ~/dotfiles
+rsync -av --exclude='.git' ~/dotfiles/ ~/
+rm -rf ~/dotfiles
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.config/shell/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.config/shell/zsh-autosuggestions
