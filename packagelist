@@ -12,11 +12,13 @@ xclip		#	copy with terminal
 dunst		#	notification system
 libnotify
 sxhkd		#	X daemon
+sshfs		#	server nas
 arandr		#	customize monitors
 man-db		#	man pages
 gnome-keyring	#	keyring
 rsync		#	rsync
 autorandr	#	tool for managing screens automatically
+xf86-video-intel
 
 # audio
 pipewire	#	pipewire

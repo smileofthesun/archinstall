@@ -60,6 +60,14 @@ Section "InputClass"
 EndSection
 EOM'
 
+sudo bash -c 'cat > /etc/X11/xorg.conf.d/20-intel.conf <<- EOM
+Section "Device"
+  Identifier "Intel Graphics"
+  Driver "intel"
+  Option "TearFree" "true"
+EndSection
+EOM'
+
 sudo bash -c 'cat >> /etc/pam.d/login <<- EOM
 
 # Gnome Keyring
