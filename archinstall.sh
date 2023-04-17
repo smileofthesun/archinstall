@@ -15,7 +15,7 @@ else
     echo "This is not Artix Linux."
 fi
 
-echo "Skip on Artix
+echo "!!!!! SKIP ON ARTIX !!!!!
 Enter your desired country for the mirrorlist (leave empty to skip):"
 read country
 
