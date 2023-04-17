@@ -71,7 +71,7 @@ git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
 makepkg -fsri
 
-awk '!/#/ { print }' aurlist | yay -S --noconfirm --needed -
+awk '!/#/ { print }' ~/archinstall/aurlist | yay -S --noconfirm --needed -
 
 
 rm -rf ~/yay ~/artixrepo
