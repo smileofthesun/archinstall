@@ -19,8 +19,9 @@ rsync		#	rsync
 autorandr	#	tool for managing screens automatically
 
 # audio
-pipewire	#	pipewire
 pipewire-pulse	#	use pipewire with pulseaudio programs
+pulsemixer	#	audiomanager in cli
+pamixer		#	for slstatus
 
 # shell
 zsh		#	z shell
