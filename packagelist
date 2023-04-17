@@ -13,6 +13,7 @@ dunst		#	notification system
 libnotify
 sxhkd		#	X daemon
 sshfs		#	server nas
+redshift	#	bluelight filter
 arandr		#	customize monitors
 man-db		#	man pages
 gnome-keyring	#	keyring
