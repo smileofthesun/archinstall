@@ -2,22 +2,6 @@
 
 sudo pacman -Syu --noconfirm
 
-if grep -q "Artix Linux" /etc/os-release; then
-    sudo bash -c 'cat >> /etc/pacman.conf <<- EOM
-    [universe]
-    Server = https://universe.artixlinux.org/\$arch
-    Server = https://mirror1.artixlinux.org/universe/\$arch
-    Server = https://mirror.pascalpuffke.de/artix-universe/\$arch
-    Server = https://artixlinux.qontinuum.space/artixlinux/universe/os/\$arch
-    Server = https://mirror1.cl.netactuate.com/artix/universe/\$arch
-    Server = https://ftp.crifo.org/artix-universe/"
-    EOM'
-    pacman -Sy --noconfirm >/dev/null 2>&
-else
-    # Commands to run if the system is not Arch Linux
-    echo "This is not Arch Linux."
-fi
-
 #sudo pacman -S --noconfirm reflector rsync
 
 echo "Skip on Artix
