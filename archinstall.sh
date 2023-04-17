@@ -71,6 +71,6 @@ git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
 PACMAN="pacman --noconfirm" makepkg -fsri
 
-rm -rf ~/yay ~/archinstall ~/artixrepo
+rm -rf ~/yay ~/artixrepo
 
 awk '!/#/ { print }' aurlist | yay -S --noconfirm --needed -
