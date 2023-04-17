@@ -71,6 +71,6 @@ cd
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -fsri
-cd
+rm -rf ~/yay ~/archinstall ~/artixrepo
 
-yay -S --noconfirm gajim-plugin-omemo
+awk '!/#/ { print }' aurlist | yay -S --noconfirm --needed -
