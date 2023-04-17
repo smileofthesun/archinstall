@@ -7,7 +7,7 @@ sudo pacman -Syu --noconfirm
 if grep -q "Artix Linux" /etc/os-release; then
     # Commands to run if the system is Arch Linux
     echo "This is Artix Linux."
-    curl https://raw.githubusercontent.com/abdullah-rgb/artix-archlinux-support/main/artix-archlinux-support.sh | sudo bash
+    curl https://raw.githubusercontent.com/smileofthesun/artixreposcript/main/artix-archlinux-support.sh | sudo bash
 else
     # Commands to run if the system is not Arch Linux
     echo "This is not Artix Linux."
