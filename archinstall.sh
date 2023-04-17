@@ -81,8 +81,7 @@ if grep -q "Artix Linux" /etc/os-release; then
     echo "This is Artix Linux. Installing cron"
     sudo pacman -S --noconfirm --needed cronie-dinit
     sudo dinitctl enable cronie
-    chmod +x ~/usr/local/bin/daily_update
-    (crontab -l 2>/dev/null; echo "0 14 * * * /usr/local/bin/daily_update") | crontab -    
+    (crontab -l 2>/dev/null; echo "0 14 * * * /.local/bin/daily_update") | crontab -    
 else
     # Commands to run if the system is not Arch Linux
     echo "This is not Artix Linux."
