@@ -25,6 +25,8 @@ else
     echo "Skipping mirrorlist configuration..."
 fi
 
+cd ~/archinstall
+
 awk '!/^#/ {print $1}' packagelist | sudo pacman -S --noconfirm --needed -
 
 git clone https://github.com/smileofthesun/dwm.git ~/.local/src/dwm
