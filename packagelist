@@ -15,7 +15,6 @@ sxhkd		#	X daemon
 arandr		#	customize monitors
 man-db		#	man pages
 gnome-keyring	#	keyring
-cronie-dinit	#	cronie
 rsync		#	rsync
 autorandr	#	tool for managing screens automatically
 
