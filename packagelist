@@ -19,7 +19,6 @@ cronie-dinit
 rsync
 
 # audio
-wireplumber	#	audio system
 pipewire	#	pipewire
 pipewire-pulse	#	use pipewire with pulseaudio programs
 
