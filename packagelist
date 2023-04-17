@@ -19,6 +19,7 @@ gnome-keyring	#	keyring
 rsync		#	rsync
 autorandr	#	tool for managing screens automatically
 xf86-video-intel
+libva-intel-driver
 
 # audio
 pipewire	#	pipewire
