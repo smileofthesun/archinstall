@@ -75,3 +75,15 @@ awk '!/#/ { print }' ~/archinstall/aurlist | yay -S --noconfirm --needed -
 
 
 rm -rf ~/yay ~/artixrepo
+
+if grep -q "Artix Linux" /etc/os-release; then
+    # Commands to run if the system is Arch Linux
+    echo "This is Artix Linux. Installing cron"
+    sudo pacman -S --noconfirm --needed cronie-dinit
+    sudo dinitctl enable cronie ~/usr/local/bin/daily_update
+    chmod +x 
+    (crontab -l 2>/dev/null; echo "0 14 * * * /usr/local/bin/daily_update") | crontab -    
+else
+    # Commands to run if the system is not Arch Linux
+    echo "This is not Artix Linux."
+fi
