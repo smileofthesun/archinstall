@@ -75,6 +75,24 @@ session    optional     pam_gnome_keyring.so auto_start
 auth       optional     pam_gnome_keyring.so
 EOM'
 
+sudo bash -c 'cat >> /etc/NetworkManager/dispatcher.d/wlan_auto_toggle.sh <<- EOM
+#!/bin/sh
+if [ "$1" = "eth0" ]; then
+    case "$2" in
+        up)
+            nmcli radio wifi off
+            ;;
+        down)
+            nmcli radio wifi on
+            ;;
+    esac
+elif [ "$(nmcli -g GENERAL.STATE device show eth0)" = "20 (unavailable)" ]; then
+    nmcli radio wifi on
+fi
+EOM'
+
+sudo chmod +x /etc/NetworkManager/dispatcher.d/wlan_auto_toggle.sh
+
 git clone https://aur.archlinux.org/yay.git ~/yay
 cd ~/yay
 makepkg -fsri
