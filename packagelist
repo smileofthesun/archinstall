@@ -35,6 +35,13 @@ zsh		#	z shell
 # tools
 ffmpeg		#	video+audio swiss army knife
 ffmpegthumbnailer
+gnome-epub-thumbnailer
+mediainfo
+lynx
+bat
+atool
+htop
+odt2txt
 neovim		#	text editor
 yt-dlp		#	downloading swiss army knife
 mpv		#	video player
